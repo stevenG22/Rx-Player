@@ -1,0 +1,126 @@
+<form action="web.html">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <title>
+            RX Player
+        </title>
+        <style>
+            body
+            {
+                margin: 0;
+            }
+        </style>
+        <link rel="stylesheet" href="../Project Lab Hci/register.css">
+    </head>
+    <body>
+        <header style="background-color: grey;">
+            <div class="header">
+                <img class="logoheader" src="../Project Lab Hci/logo.png" alt="">
+            </div>
+            <ul id="tulisan">
+                <li><a class="home" href="web.html">Home</a></li>
+                <li><a class="genre" href="genre.html">Genre</a></li>
+                <li><a class="top" href="top.html">Top 10 Asian Music</a></li>
+                <li><a class="premium" href="premium.html">Premium</a></li>
+                <li><a class="login" href="register.html">Register</a></li>
+            </ul>
+            <hr color="lightblue" size="10px">
+        </header>
+        <div class="feed">
+            <h2>Register form</h2>
+            <form action="">
+                
+                <label for="">Masukkan Nama depan: </label><br>
+                <input type="text"  id="namadepan"></label><br>
+                <label for="">Masukkan Nama belakang: </label><br>
+                <input type="text"  id="namabelakang"></label><br>
+                
+                <label for="">Gender: </label>
+                <p><input type="checkbox" id="male"> Male</p>
+                <p><input type="checkbox" id="female"> Female</p>
+                <label for="">Masukkan email: </label><br>
+                <input type="text"  id="email"></label><br>
+                <label for="">Masukkan password: </label><br>
+                <input type="password"  id="password"></label><br>
+                <label for="">confirm password: </label><br>
+                <input type="password"  id="confirmpassword"></label><br>
+                <p>Pembayaran
+                    <br>
+                    <select name="pembayaran" id="">
+                        <option value="Gopay">Gopay</option>
+                        <option value="Ovo">Ovo</option>
+                        <option value="Dana">Dana</option>
+                        <option value="CreditCard">CreditCard</option>
+                        <option value="DebitCard">DebitCard</option>
+                        <option value="Pulsa">Pulsa</option>
+                    </select>
+                </p>
+                
+                <p><input type="checkbox" name="syarat" value="syarat" id="syarat"> menyetujui Syarat dan ketentuan </p>
+                
+                <br>
+                <button id="submit">submit</button>
+                
+                
+                 
+            </form>
+        </div>
+        <footer style="background-color: grey;">
+            <div class="footer">
+                <img class="footer-img" src="../Project Lab Hci/logo.png" alt="">
+                <ul id="tulisanfooter1">
+                    <p class="uptodate">UpToDate News</p>  
+                    <p class="events">Events</p>
+                    <p class="promotion">Promotion</p> 
+                </ul>
+                <ul id="tulisanfooter2">
+                    <p class="Aboutus">About us</p> 
+                    <p class="musicweb">Music web, make easy for everyone</p>
+                    <p class="contactus">Contact Us</p>
+                    <p class="email">Rxplayer@gmail.com</p>
+                </ul>
+            </div>
+            <p class="footertext">©2020</p>
+             
+        </footer>  
+    </body>  
+    
+    <script>
+       
+        var x = document.getElementById("submit");
+        function checkform(){
+            var password = document.getElementById("password");
+            var confirmpassword = document.getElementById("confirmpassword");
+            var namadepan = document.getElementById("namadepan");
+            var namabelakang = document.getElementById("namabelakang");
+            var email = document.getElementById("email");
+            if(!document.getElementById("syarat").checked){
+                alert("anda tidak menyetujui syarat dan ketentuan !");
+                return false;
+            }
+            if(!document.getElementById("male").checked && !document.getElementById("female").checked){
+                alert("Isi Gender!");
+                return false;
+            }
+             if(password.value != confirmpassword.value){
+                 alert("Password Tidak sama");
+                return;
+             }
+            if(namadepan.value == "" || namabelakang.value == ""){
+                alert("Nama anda Kurang Lengkap !");
+                return;
+            }
+            if(email.value == ""){
+                alert("Isi Email Anda!");
+                return;
+            }
+    
+    
+        }
+        x.addEventListener("click", checkform);
+    </script>
+    </html>
+</form>

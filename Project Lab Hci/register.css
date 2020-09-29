@@ -1,0 +1,539 @@
+body
+{
+    background-color: rgb(64, 64, 177);
+    margin: 0;
+}
+
+.header
+{
+    display: flex;
+}
+.logoheader
+{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    margin-left: 0px;
+
+}
+
+#tulisan
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    
+}
+.home
+{
+    padding: 0px;
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 80%;
+    
+}
+
+.genre
+{
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 80%;
+}
+.top
+{
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 80%;
+}
+.premium
+{
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 80%;
+}
+
+.login
+{
+    color: black;
+    text-decoration-line: none  ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-size: 70%;
+}
+.button
+{
+    color: black;
+    text-decoration-line: none  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    
+}
+.feed
+{
+     
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%);  */
+    background: rgba(0, 0, 0, 0,5); 
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px 5px white;
+    margin-left: 25px;
+}
+.footer
+{
+    display: flex;
+}
+
+.footer-img
+{
+    width: 130px;
+    height: 100px;
+    display: flex;
+    margin-left: 0px;
+}
+.footertext
+{
+   margin-top: px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+#tulisanfooter1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style: none;
+    padding: 0px;
+    margin-left: 10px;
+    
+}
+
+#tulisanfooter2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style: none;
+    padding: 0px;
+    margin-left: 70px;
+     
+}
+
+.uptodate
+{
+    color: yellow;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 80%;
+}
+.events
+{
+    color: yellow;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 80%;
+}
+.promotion
+{
+    color: yellow;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 80%;
+}
+.Aboutus
+{
+    color: yellow;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 80%;
+}
+.musicweb
+{
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 80%; 
+}
+
+.contactus
+{
+    color: yellow;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 80%;
+} 
+.email
+{
+    color: black;
+    text-decoration-line: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 80%; 
+}
+
+@media only screen and (min-width: 768px)
+{
+    .logoheader
+    {
+        width: 30%;
+        height: 20%;
+        display: flex;
+        margin-left: 0px;
+
+    }
+    #tulisan
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        list-style: none;
+        padding: 0px;
+        
+    }
+
+    .home
+    {
+        padding: 0px;
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        font-size: 150%;
+        
+    }
+    .genre
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+        font-size: 150%;
+    }
+    .top
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+        font-size: 150%;
+    }
+    .premium
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+        font-size: 150%;
+    }
+    .login
+    {
+        color: black;
+        text-decoration-line: none  ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        font-size: 130%;
+    }
+    .feed
+    {
+        top: 100%;
+        left: 100%;
+        /* transform: translate(-50%, -50%);  */
+        background: rgba(0, 0, 0, 0,5); 
+        padding: 20px;
+        width: 300px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        box-shadow: 0 0 10px 5px white;
+        margin-left: 200px;
+    }
+    .footer-img
+    {
+        width: 130px;
+        height: 130px;
+        display: flex;
+        margin-left: 0px;
+    }
+    .footertext
+    {
+        margin-top: px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    #tulisanfooter1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        list-style: none;
+        padding: 0px;
+        margin-left: 100px;
+        
+    }
+
+    #tulisanfooter2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        list-style: none;
+        padding: 0px;
+        margin-left: 200px;
+        
+    }
+
+    .uptodate
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 80%;
+    }
+    .events
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 80%;
+    }
+    .promotion
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 80%;
+    }
+    .Aboutus
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 80%;
+    }
+    .musicweb
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -10px;
+        font-size: 80%; 
+    }
+
+    .contactus
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 80%;
+    }
+
+    .email
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -10px;
+        font-size: 80%; 
+    }
+
+
+}
+
+@media only screen and (min-width: 1025px)
+{
+    .logoheader
+    {
+        width: 15%;
+        height: 13%;
+        display: flex;
+        margin-left: 0px;
+    
+    }
+    
+    #tulisan
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        padding: 0px;
+        
+    }
+    
+    .home
+    {
+        padding: 0px;
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        font-size: 200%;
+        
+    }
+    .genre
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        font-size: 200%;
+    }
+    .top
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        font-size: 200%;
+    }
+    .premium
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        font-size: 200%;
+    }
+    .login
+    {
+        color: black;
+        text-decoration-line: none  ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 300px;
+        font-size: 150%;
+    }
+    .feed
+    {
+        top: 100%;
+        left: 100%;
+        /* transform: translate(-50%, -50%);  */
+        background: rgba(0, 0, 0, 0,5); 
+        padding: 20px;
+        width: 300px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        box-shadow: 0 0 10px 5px white;
+        margin-left: 500px;
+    }
+    .footer-img
+    {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-left: 0px;
+    }
+    .footertext
+    {
+        margin-top: -20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    #tulisanfooter1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0px;
+        margin-left: 300px;
+        
+    }
+
+    #tulisanfooter2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        list-style: none;
+        padding: 0px;
+        margin-left: 400px;
+        
+    }
+
+    .uptodate
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 100%;
+    }
+    .events
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 100%;
+    }
+    .promotion
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 100%;
+    }
+    .Aboutus
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 100%;
+    }
+    .musicweb
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -10px;
+        font-size: 100%; 
+    }
+
+    .contactus
+    {
+        color: yellow;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        font-size: 100%;
+    }
+
+    .email
+    {
+        color: black;
+        text-decoration-line: none ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -10px;
+        font-size: 100%; 
+    }
+}
+
